@@ -1,0 +1,14 @@
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\Roopa.Employee.Repository.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\Roopa.Employee.Repository.pdb
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\Roopa.Repository.Model.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\xunit.abstractions.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\xunit.core.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\Roopa.Repository.Model.pdb
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\xunit.abstractions.xml
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\xunit.core.xml
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\obj\Debug\Roopa.Employee.Repository.csproj.AssemblyReference.cache
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\obj\Debug\Roopa.Employee.Repository.csproj.CoreCompileInputs.cache
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\obj\Debug\Roopa.Employee.Repository.csproj.CopyComplete
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\obj\Debug\Roopa.Employee.Repository.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\obj\Debug\Roopa.Employee.Repository.pdb

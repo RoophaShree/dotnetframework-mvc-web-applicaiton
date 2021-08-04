@@ -2,6 +2,10 @@
 using System.Web.Mvc;
 using Roopa.Employee.Services;
 using Roopa.Controller.Model;
+using controllermodels = Roopa.Controller.Model;
+using Roopa.Services.Model;
+using EmpModel = Roopa.Controller.Model.EmpModel;
+using System.Collections.Generic;
 
 namespace MVC_ADO.Net.Controllers
 {
@@ -12,14 +16,36 @@ namespace MVC_ADO.Net.Controllers
         {
             EmployeeServices employee = new EmployeeServices();
             ModelState.Clear();
-            return View(employee.GetAllEmployees());
+            List<Roopa.Controller.Model.EmpModel> controllerListOFEmployeeModel = new List<Roopa.Controller.Model.EmpModel>();
+            var listOfServiceModels = employee.GetAllEmployees();
+            foreach (var item in listOfServiceModels)
+            {
+                controllerListOFEmployeeModel.Add(new EmpModel
+                {
+                    Address = item.Address,
+                    City = item.City,
+                    Empid = item.Empid,
+                    Name = item.Name,
+
+                });
+            }
+            
+
+            return View(controllerListOFEmployeeModel);
         }
 
         public ActionResult AddEmployee()
         {
             return View();
         }
-       
+
+        public ActionResult GetService()
+        {
+            Roopa.Employee.Services.EmployeeServices service = new Roopa.Employee.Services.EmployeeServices();
+            ViewBag.Message = service.WCF();
+            return View("AddEmployee");
+        }
+
 
         [HttpPost]
         public ActionResult AddEmployee(EmpModel Emp)
@@ -28,21 +54,28 @@ namespace MVC_ADO.Net.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    EmployeeServices employee = new EmployeeServices();
+
 
                     EmployeeServices emp = new EmployeeServices();
-                    
-                    if (employee.AddEmployee(emp))
+
+                    Roopa.Services.Model.EmpModel employee = new Roopa.Services.Model.EmpModel();
+
+                    employee.Address = Emp.Address;
+                    employee.Name = Emp.Name;
+                    employee.City = Emp.City;
+                    employee.Empid = Emp.Empid;
+
+                    if (emp.AddEmployee(employee))
                     {
                         ViewBag.Message = "Employee details added successfully";
                     }
                 }
 
                 return View();
-                
+
             }
-            
-            catch(Exception)
+
+            catch (Exception Ex)
             {
                 return View();
             }

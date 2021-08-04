@@ -72,7 +72,6 @@ namespace Roopa.Employee.Repository
             SqlDataAdapter da = new SqlDataAdapter(com);
             DataTable dt = new DataTable();
 
-            sqlconnection.Open();
             da.Fill(dt);
             sqlconnection.Close();
 

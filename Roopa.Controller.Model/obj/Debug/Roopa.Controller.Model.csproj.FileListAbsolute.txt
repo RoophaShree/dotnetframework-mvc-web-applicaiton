@@ -1,0 +1,5 @@
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Controller.Model\bin\Debug\Roopa.Controller.Model.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Controller.Model\bin\Debug\Roopa.Controller.Model.pdb
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Controller.Model\obj\Debug\Roopa.Controller.Model.csproj.CoreCompileInputs.cache
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Controller.Model\obj\Debug\Roopa.Controller.Model.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Controller.Model\obj\Debug\Roopa.Controller.Model.pdb

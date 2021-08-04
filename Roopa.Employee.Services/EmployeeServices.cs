@@ -1,9 +1,6 @@
 ﻿
 using Roopa.Employee.Repository;
 using System.Collections.Generic;
-using Roopa.Services.Model;
-using System;
-using Roopa.Repository.Model;
 using servicemodels = Roopa.Services.Model;
 using repositorModels = Roopa.Repository.Model;
 
@@ -11,7 +8,10 @@ namespace Roopa.Employee.Services
 {
     public class EmployeeServices
     {
+
         public object Address;
+
+        public object ViewBag { get; private set; }
 
         public List<Roopa.Services.Model.EmpModel> GetAllEmployees()
         {
@@ -30,21 +30,27 @@ namespace Roopa.Employee.Services
         }
         public bool AddEmployee(Roopa.Services.Model.EmpModel obj)   //To Add Emp Details
         {
-            EmpRepository emp = new EmpRepository();
+            EmpRepository empRepository = new EmpRepository();
 
             repositorModels.EmpModel empModel = new repositorModels.EmpModel
             {
-                Address = obj.Address
+                Address = obj.Address,
+                Name=obj.Name,
+                City=obj.City
+                
             };
-            var result = emp.AddEmployee(empModel);
+            var result = empRepository.AddEmployee(empModel);
 
 
             return result;
         }
 
-        public bool AddEmployee(EmployeeServices emp)
+        public string WCF()
         {
-            throw new NotImplementedException();
+            WCFServiceReference.EmployeeService employee = new WCFServiceReference.EmployeeService();
+            return employee.Message();
         }
+
+       
     }
 }
