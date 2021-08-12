@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Web.Mvc;
 using Roopa.Employee.Services;
-using Roopa.Controller.Model;
-using controllermodels = Roopa.Controller.Model;
-using Roopa.Services.Model;
 using EmpModel = Roopa.Controller.Model.EmpModel;
 using System.Collections.Generic;
 using Roopa.Employee.Repository;

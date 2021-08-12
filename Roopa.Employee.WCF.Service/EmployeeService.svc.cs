@@ -1,6 +1,5 @@
 ﻿using Roopa.Employee.Repository;
 using Roopa.Services.Model;
-using System;
 using System.Collections.Generic;
 
 namespace Roopa.Employee.WCF.Service
@@ -20,15 +19,12 @@ namespace Roopa.Employee.WCF.Service
 
             };
             var result = empRepository.AddEmployee(empModel);
-
-
             return result;
         }
 
         public bool DeleteEmployee(int Id)
         {
             EmpRepository empRepository = new EmpRepository();
-            //Roopa.Repository.Model.EmpModel empModel = new Roopa.Repository.Model.EmpModel();
             var result = empRepository.DeleteEmployee(Id);
             return result;
         }
