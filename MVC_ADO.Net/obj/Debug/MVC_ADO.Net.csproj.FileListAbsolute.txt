@@ -16,7 +16,6 @@ D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\System.Web.WebPages.dll
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\System.Web.WebPages.Razor.dll
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\WebGrease.dll
-D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\Roopa.Employee.Repository.dll
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\Roopa.Repository.Model.dll
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\Roopa.Controller.Model.pdb
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\Roopa.Employee.Services.pdb
@@ -31,7 +30,6 @@ D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\Newtonsoft.Json.xml
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\Antlr3.Runtime.pdb
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\Roopa.Employee.Repository.pdb
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\Roopa.Repository.Model.pdb
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\obj\Debug\MVC_ADO.Net.csproj.AssemblyReference.cache
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\obj\Debug\MVC_ADO.Net.csproj.CoreCompileInputs.cache
@@ -65,3 +63,6 @@ D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\roslyn\VBCSCompiler.exe
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\roslyn\VBCSCompiler.exe.config
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\Roopa.Employee.Services.dll.config
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\app.config
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\Roopa.Employee.Repository.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\MVC_ADO.Net\bin\Roopa.Employee.Repository.pdb

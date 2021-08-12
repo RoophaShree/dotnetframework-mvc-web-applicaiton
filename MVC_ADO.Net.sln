@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roopa.Employee.Repository", "Roopa.Employee.Repository\Roopa.Employee.Repository.csproj", "{F13089D5-4376-42DC-89E5-82BF45508C18}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roopa.Employee.Services", "Roopa.Employee.Services\Roopa.Employee.Services.csproj", "{CCE82425-66BB-4543-8580-D3BD82B03E6A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F5E3D80F-7F74-41A5-8689-8A9427CCBB56} = {F5E3D80F-7F74-41A5-8689-8A9427CCBB56}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roopa.Controller.Model", "Roopa.Controller.Model\Roopa.Controller.Model.csproj", "{64EDE4C0-02CE-494F-8AE0-C13621A298DD}"
 EndProject

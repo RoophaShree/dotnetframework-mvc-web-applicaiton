@@ -22,15 +22,5 @@ namespace Roopa.Employee.Services.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:58347/EmployeeService.svc")]
-        public string Roopa_Employee_Services_WCFServiceReference_EmployeeService {
-            get {
-                return ((string)(this["Roopa_Employee_Services_WCFServiceReference_EmployeeService"]));
-            }
-        }
     }
 }

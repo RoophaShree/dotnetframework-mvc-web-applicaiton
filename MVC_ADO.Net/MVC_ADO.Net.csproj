@@ -190,6 +190,10 @@
       <Project>{64ede4c0-02ce-494f-8ae0-c13621a298dd}</Project>
       <Name>Roopa.Controller.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Roopa.Employee.Repository\Roopa.Employee.Repository.csproj">
+      <Project>{F13089D5-4376-42DC-89E5-82BF45508C18}</Project>
+      <Name>Roopa.Employee.Repository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Roopa.Employee.Services\Roopa.Employee.Services.csproj">
       <Project>{cce82425-66bb-4543-8580-d3bd82b03e6a}</Project>
       <Name>Roopa.Employee.Services</Name>

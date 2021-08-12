@@ -5,3 +5,10 @@ D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.WCF.Service\obj\Debug\Roopa.Employee.WCF.Service.csproj.CoreCompileInputs.cache
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.WCF.Service\obj\Debug\Roopa.Employee.WCF.Service.dll
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.WCF.Service\obj\Debug\Roopa.Employee.WCF.Service.pdb
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.WCF.Service\bin\Roopa.Employee.Repository.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.WCF.Service\bin\Roopa.Repository.Model.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.WCF.Service\bin\Roopa.Services.Model.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.WCF.Service\bin\Roopa.Employee.Repository.pdb
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.WCF.Service\bin\Roopa.Repository.Model.pdb
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.WCF.Service\bin\Roopa.Services.Model.pdb
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.WCF.Service\obj\Debug\Roopa.Employee.WCF.Service.csproj.CopyComplete

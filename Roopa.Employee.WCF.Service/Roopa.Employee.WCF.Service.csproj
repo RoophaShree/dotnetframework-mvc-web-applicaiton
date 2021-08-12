@@ -81,6 +81,20 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Roopa.Employee.Repository\Roopa.Employee.Repository.csproj">
+      <Project>{F13089D5-4376-42DC-89E5-82BF45508C18}</Project>
+      <Name>Roopa.Employee.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Roopa.Repository.Model\Roopa.Repository.Model.csproj">
+      <Project>{E53FF5B9-7EF1-4C90-9FEA-6FCDCE507BA4}</Project>
+      <Name>Roopa.Repository.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Roopa.Services.Model\Roopa.Services.Model.csproj">
+      <Project>{735832ad-fa31-4291-ae47-4e347dbc72c2}</Project>
+      <Name>Roopa.Services.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -19,17 +19,7 @@ namespace Roopa.Employee.Repository
             return constr;
         }
 
-        public void DeleteEmployee()
-        {
-            throw new NotImplementedException();
-        }
-
         
-
-        public void UpdateEmployee()
-        {
-            throw new NotImplementedException();
-        }
 
        
 

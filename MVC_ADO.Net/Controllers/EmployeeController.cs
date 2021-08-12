@@ -6,6 +6,7 @@ using controllermodels = Roopa.Controller.Model;
 using Roopa.Services.Model;
 using EmpModel = Roopa.Controller.Model.EmpModel;
 using System.Collections.Generic;
+using Roopa.Employee.Repository;
 
 namespace MVC_ADO.Net.Controllers
 {
@@ -17,7 +18,7 @@ namespace MVC_ADO.Net.Controllers
             EmployeeServices employee = new EmployeeServices();
             ModelState.Clear();
             List<Roopa.Controller.Model.EmpModel> controllerListOFEmployeeModel = new List<Roopa.Controller.Model.EmpModel>();
-            var listOfServiceModels = employee.GetAllEmployees();
+            var listOfServiceModels = employee.GetAllEmployeesWCF();
             foreach (var item in listOfServiceModels)
             {
                 controllerListOFEmployeeModel.Add(new EmpModel
@@ -65,7 +66,7 @@ namespace MVC_ADO.Net.Controllers
                     employee.City = Emp.City;
                     employee.Empid = Emp.Empid;
 
-                    if (emp.AddEmployee(employee))
+                    if (emp.AddEmployeeWCF(employee))
                     {
                         ViewBag.Message = "Employee details added successfully";
                     }
@@ -75,7 +76,7 @@ namespace MVC_ADO.Net.Controllers
 
             }
 
-            catch (Exception Ex)
+            catch (Exception)
             {
                 return View();
             }
@@ -85,7 +86,7 @@ namespace MVC_ADO.Net.Controllers
         {
             EmployeeServices EmpRepo = new EmployeeServices();
 
-            return View(EmpRepo.GetAllEmployees().Find(Emp => Emp.Empid == id));
+            return View(EmpRepo.GetAllEmployeesWCF().Find(Emp => Emp.Empid == id));
         }
 
         [HttpPost]
@@ -114,14 +115,16 @@ namespace MVC_ADO.Net.Controllers
         {
             try
             {
-                //EmployeeServices EmpRepo = new EmployeeServices();
-                //if (EmpRepo.DeleteEmployee(id))
-                //{
-                //    ViewBag.AlertMsg = "Employee details deleted successfully";
 
-                //}
-                //return RedirectToAction("GetAllEmpDetails");
-                return null;
+                EmpRepository EmpRepo = new EmpRepository();
+                
+                if (EmpRepo.DeleteEmployee(id))
+                {
+                    ViewBag.AlertMsg = "Employee details deleted successfully";
+
+                }
+                return RedirectToAction("GetAllEmpDetails");
+                
 
             }
             catch

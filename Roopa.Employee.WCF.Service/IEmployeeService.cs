@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Roopa.Repository.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -13,5 +14,17 @@ namespace Roopa.Employee.WCF.Service
     {
         [OperationContract]
         String Message();
+
+        [OperationContract]
+        bool AddEmployee(Services.Model.EmpModel obj);
+
+        [OperationContract]
+        List<Roopa.Services.Model.EmpModel> GetAllEmployees();
+
+        [OperationContract]
+        bool UpdateEmployee(EmpModel obj);
+
+        [OperationContract]
+        bool DeleteEmployee(int Id);
     }
 }
