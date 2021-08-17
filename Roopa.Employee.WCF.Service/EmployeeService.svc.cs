@@ -1,5 +1,6 @@
 ﻿using Roopa.Employee.Repository;
 using Roopa.Services.Model;
+using System;
 using System.Collections.Generic;
 
 namespace Roopa.Employee.WCF.Service
@@ -7,19 +8,27 @@ namespace Roopa.Employee.WCF.Service
 
     public class EmployeeService : IEmployeeService
     {
+        
         public bool AddEmployee(Roopa.Services.Model.EmpModel obj)
         {
-            EmpRepository empRepository = new EmpRepository();
-
-            Roopa.Repository.Model.EmpModel empModel = new Roopa.Repository.Model.EmpModel
+            try
             {
-                Address = obj.Address,
-                Name = obj.Name,
-                City = obj.City
+                EmpRepository empRepository = new EmpRepository();
 
-            };
-            var result = empRepository.AddEmployee(empModel);
-            return result;
+                Roopa.Repository.Model.EmpModel empModel = new Roopa.Repository.Model.EmpModel
+                {
+                    Address = obj.Address,
+                    Name = obj.Name,
+                    City = obj.City
+
+                };
+                var result = empRepository.AddEmployee(empModel);
+                return result;
+            }
+            catch(Exception)
+            {
+                return false;
+            }
         }
 
         public bool DeleteEmployee(int Id)
@@ -49,9 +58,9 @@ namespace Roopa.Employee.WCF.Service
             return empModels;
         }
 
-        public string Message()
+        public string CheckHealth()
         {
-            return "Hello World";
+            return "Service Is Running";
         }
 
         public bool UpdateEmployee(Roopa.Repository.Model.EmpModel obj)

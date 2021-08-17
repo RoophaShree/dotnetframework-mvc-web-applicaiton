@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ServiceModel;
+using System.ServiceModel.Web;
 
 namespace Roopa.Employee.WCF.Service
 {
@@ -10,12 +11,15 @@ namespace Roopa.Employee.WCF.Service
     public interface IEmployeeService
     {
         [OperationContract]
-        String Message();
+        [WebInvoke(Method = "GET" , UriTemplate = "/CheckHealth", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json)]
+        String CheckHealth();
 
         [OperationContract]
+        [WebInvoke(Method = "POST", UriTemplate = "AddEmployee", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json)]
         bool AddEmployee(Services.Model.EmpModel obj);
 
         [OperationContract]
+        [WebInvoke(Method = "GET", UriTemplate = "/GetAllEmployees", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json)]
         List<Roopa.Services.Model.EmpModel> GetAllEmployees();
 
         [OperationContract]
