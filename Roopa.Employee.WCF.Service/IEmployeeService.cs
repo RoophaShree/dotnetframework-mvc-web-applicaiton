@@ -23,9 +23,11 @@ namespace Roopa.Employee.WCF.Service
         List<Roopa.Services.Model.EmpModel> GetAllEmployees();
 
         [OperationContract]
+        [WebInvoke(Method = "PUT", UriTemplate = "/UpdateEmployee", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json)]
         bool UpdateEmployee(EmpModel obj);
 
         [OperationContract]
+        [WebInvoke(Method = "DELETE", UriTemplate = "/DeleteEmployee", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json)]
         bool DeleteEmployee(int Id);
     }
 }
