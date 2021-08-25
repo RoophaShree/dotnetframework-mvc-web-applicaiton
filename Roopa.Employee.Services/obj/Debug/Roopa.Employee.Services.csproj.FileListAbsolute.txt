@@ -1,9 +1,7 @@
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Services\bin\Debug\Roopa.Employee.Services.dll
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Services\bin\Debug\Roopa.Employee.Services.pdb
-D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Services\bin\Debug\Roopa.Employee.Repository.dll
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Services\bin\Debug\Roopa.Repository.Model.dll
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Services\bin\Debug\Roopa.Services.Model.dll
-D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Services\bin\Debug\Roopa.Employee.Repository.pdb
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Services\bin\Debug\Roopa.Repository.Model.pdb
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Services\bin\Debug\Roopa.Services.Model.pdb
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Services\obj\Debug\Roopa.Employee.Services.csproj.CoreCompileInputs.cache

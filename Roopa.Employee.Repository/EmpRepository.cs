@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
 using Roopa.Repository.Model;
 
 
@@ -11,19 +12,25 @@ namespace Roopa.Employee.Repository
 {
     public class EmpRepository
     {
-        private SqlConnection sqlconnection;  //To Handle connection related activities
+        private SqlConnection sqlconnection;
+        private string _dbconnstr;
+       // IConfiguration _configuration;
+
 
         private string GetConnectionString()
         {
-            string constr = ConfigurationManager.ConnectionStrings["getconn"].ToString();
-            return constr;
+            return _dbconnstr;
         }
 
-        
+        public EmpRepository(string dbconnstr=null)
+        {
+            _dbconnstr = dbconnstr;
 
-       
+        }
 
-        public bool AddEmployee(Roopa.Repository.Model.EmpModel obj)   //To Add Emp Details
+
+
+        public bool AddEmployee(Roopa.Repository.Model.EmpModel obj)   
         {
 
             string sqlConnectionstring = GetConnectionString();

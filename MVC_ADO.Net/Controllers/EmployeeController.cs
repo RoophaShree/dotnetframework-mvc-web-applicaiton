@@ -113,7 +113,7 @@ namespace MVC_ADO.Net.Controllers
             try
             {
 
-                EmpRepository EmpRepo = new EmpRepository();
+                EmpRepository EmpRepo = new EmpRepository(string.Empty);
                 
                 if (EmpRepo.DeleteEmployee(id))
                 {

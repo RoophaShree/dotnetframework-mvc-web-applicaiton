@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roopa.Repository.Model", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roopa.Employee.WCF.Service", "Roopa.Employee.WCF.Service\Roopa.Employee.WCF.Service.csproj", "{F5E3D80F-7F74-41A5-8689-8A9427CCBB56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roopa.Employee.Rest.Api", "Roopa.Employee.Rest.Api\Roopa.Employee.Rest.Api.csproj", "{9B5CD5AB-D950-43EC-A08D-68E4148BDD76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 		{F5E3D80F-7F74-41A5-8689-8A9427CCBB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5E3D80F-7F74-41A5-8689-8A9427CCBB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5E3D80F-7F74-41A5-8689-8A9427CCBB56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5CD5AB-D950-43EC-A08D-68E4148BDD76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5CD5AB-D950-43EC-A08D-68E4148BDD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5CD5AB-D950-43EC-A08D-68E4148BDD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5CD5AB-D950-43EC-A08D-68E4148BDD76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

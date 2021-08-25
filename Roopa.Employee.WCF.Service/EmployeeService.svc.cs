@@ -33,7 +33,7 @@ namespace Roopa.Employee.WCF.Service
 
         public bool DeleteEmployee(int Id)
         {
-            EmpRepository empRepository = new EmpRepository();
+            EmpRepository empRepository = new EmpRepository(string.Empty);
             var result = empRepository.DeleteEmployee(Id);
             return result;
         }

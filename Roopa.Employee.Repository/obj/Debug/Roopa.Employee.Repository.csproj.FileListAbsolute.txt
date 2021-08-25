@@ -1,6 +1,5 @@
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\Roopa.Employee.Repository.pdb
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\Roopa.Repository.Model.dll
-D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\xunit.abstractions.dll
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\xunit.core.dll
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\Roopa.Repository.Model.pdb
@@ -11,4 +10,18 @@ D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\obj\Debug\Roopa.Employee.Repository.csproj.CopyComplete
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\obj\Debug\Roopa.Employee.Repository.dll
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\obj\Debug\Roopa.Employee.Repository.pdb
-D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\Roopa.Employee.Repository.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\Roopa.Employee.Repository.dll.config
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\System.Buffers.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\System.Memory.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\System.Numerics.Vectors.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\System.ValueTuple.dll
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\System.Buffers.xml
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\System.Memory.xml
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\System.Numerics.Vectors.xml
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Employee.Repository\bin\Debug\System.ValueTuple.xml

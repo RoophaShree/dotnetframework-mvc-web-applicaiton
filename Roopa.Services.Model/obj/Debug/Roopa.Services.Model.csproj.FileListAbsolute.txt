@@ -3,4 +3,3 @@ D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Services.Model\obj\Debug\Roopa.Services.Model.csproj.CoreCompileInputs.cache
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Services.Model\obj\Debug\Roopa.Services.Model.dll
 D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Services.Model\obj\Debug\Roopa.Services.Model.pdb
-D:\Study\.NetProgramming\WebProjects\dotnetframeworkprojects\dotnetframework-mvc-web-applicaiton\Roopa.Services.Model\obj\Debug\Roopa.Services.Model.csproj.AssemblyReference.cache
